@@ -1,0 +1,19 @@
+.cell{
+    height: 75px;
+    width: 75px;
+    border: 2px solid;
+    line-height:75px ;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    font-size: 50px;
+}
+#gamepanel{
+    text-align: center;
+    font-family: Permanent Marker,cursive;
+}
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: auto;
+    width: 225px;
+}
